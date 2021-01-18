@@ -8,7 +8,7 @@ repos:
         args: ['--py38-plus']
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.3.0
+    rev: v3.4.0
     hooks:
       - id: check-json
       - id: check-yaml
@@ -23,7 +23,7 @@ repos:
         exclude: '^jawanndenn/migrations/'
 
   - repo: https://github.com/pre-commit/mirrors-isort
-    rev: v5.6.4
+    rev: v5.7.0
     hooks:
       - id: isort
 
